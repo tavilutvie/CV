@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+html, body{
+  overflow-x: hidden;
+  margin: auto;
+  padding: auto;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lobster", sans-serif;
+  
+}
+#header-bg{
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  z-index: -1;
+  object-fit: cover;
+}
+header li{
+  display: inline;
+}
+header button{
+  background-color:#ffee00;
+}
+li {
+  list-style: none;
+  list-style-position: unset;
+  list-style-type: none;
+  margin-right: 40px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+}
+p{
+  list-style: none;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+p, li{
+  color: rgb(255, 0, 0);
+}
+h3, h2{
+  list-style: none;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 30%;
+  border-color: aqua;
+  color: rgb(0, 0, 0);
+}
+header {
+  text-align: center;
+}
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid;
+  object-fit: cover;
+  object-position: 0px 20%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+#content {
+  align-items: center;
+  text-align: center;
+}
+#about, #education, #experience, #skill, #contact{
+  object-fit: cover;
+  padding: 20px;
+  border: 5px solid;
+  border-radius: 50px;
+  width: 500px;
+  background-color: rgb(226, 170, 17);
+  margin: auto;
+  border-color: azure;
+}
+.sd p, .smp p, .sma p, .college p{
+  text-decoration: underline;
+}
+#education span{
+  color: aqua;
+}
+#experience span{
+  color: aqua;
+}
+.programming p, .web-programming p, .soft-skill p, .language p{
+  text-decoration: underline;
+}
+#contact button{
+  background-color:rgb(255, 0, 0);
+  color: whitesmoke;
+  border-radius: 50%;
+}
+#contact li {
+  display: inline;
+}
